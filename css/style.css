@@ -105,6 +105,7 @@ body{
     display: flex;
     flex-direction: column;
     font-weight: 600;
+    height: 70%;
     justify-content: center;
     margin: 10px .7rem;
     padding: 1rem .5rem 1rem .5rem;
@@ -116,6 +117,7 @@ body{
     border-radius: .4rem;
     margin: 1rem 0 1rem 0;
     width: 95%;
+    max-height: 90%
 }
 
 .btn-getCat{
@@ -140,9 +142,10 @@ body{
 @media  (max-width: 768px){
     .container{
         flex-direction: column;
+        justify-content: flex-start;
     }
     .cont-api-Simpson{
-        padding-bottom: 3rem 0;
+        padding: 3rem 0;
     }
     .cont-api-cat{
         padding: 3rem 0;
